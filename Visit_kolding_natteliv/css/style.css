@@ -1,0 +1,136 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    nav {
+        background-color: #FF9F3E;
+        height: 70px;
+    }
+    
+    nav img {
+        height: 70px;
+    }
+    
+    .dropdown {
+        float: right;
+    }
+    
+    .dropdown .dropbtn {
+        font-size: 20px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        height: 70px;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+        z-index: 1;
+    }
+    
+    .oplev-Danmark {
+        font-size: 20px;
+        color: white;
+        padding: 22px 16px;
+        float: right;
+        text-decoration: none;
+    }
+    
+    #natteliv-header {
+        background-image: url("/img/ntteliv.jpg");
+        width: 80%;
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    
+    .natteliv-h2 {
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(136, 136, 136);
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    #natteliv-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 25px;
+        grid-template-areas: "natteliv1 natteliv2 natteliv3 natteliv4" "natteliv5 natteliv6 natteliv7 natteliv8";
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    
+    #natteliv-container>div>img {
+        height: 200px;
+        width: 270px;
+    }
+    
+    .natteliv1 {
+        grid-area: natteliv1;
+    }
+    
+    .natteliv2 {
+        grid-area: natteliv2;
+    }
+    
+    .natteliv3 {
+        grid-area: natteliv3;
+    }
+    
+    .natteliv4 {
+        grid-area: natteliv4;
+    }
+    
+    .natteliv5 {
+        grid-area: natteliv5;
+    }
+    
+    .natteliv6 {
+        grid-area: natteliv6;
+    }
+    
+    .natteliv7 {
+        grid-area: natteliv7;
+    }
+    
+    .natteliv8 {
+        grid-area: natteliv8;
+    }
+    
+    footer {
+        background-color: #FF9F3E;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        color: white;
+        margin-top: 30px;
+    }
+    
+    footer ul {
+        padding: 20px;
+        margin: 0 auto;
+    }
+    
+    footer li {
+        list-style-type: none;
+        margin: 2px 5px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        font-size: 16px;
+        color: white;
+    }
